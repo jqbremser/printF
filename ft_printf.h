@@ -12,14 +12,16 @@
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
+
 # include <stdarg.h>
 # include <unistd.h>
 # include <limits.h>
+# include "libft/libft.h"
 
 int	ft_printf(const char *s, ...);
-int	print_ch(char c, int *check);
-int	print_str(char *s, int *check);
-int	cast_hex(unsigned long long n, unsigned int base, int x, int *check);
-int	cast_dec(int n, int *check);
-int	printp(unsigned long int s, int *check);
+// int	print_ch(char c, int *check);
+// int	print_str(char *s, int *check);
+// int	cast_hex(unsigned long long n, unsigned int base, int x, int *check);
+// int	cast_dec(int n, int *check);
+// int	printp(unsigned long int s, int *check);
 #endif
